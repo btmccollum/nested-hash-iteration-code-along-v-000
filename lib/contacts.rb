@@ -21,7 +21,7 @@ def remove_strawberry(contacts)
       # binding.pry
       if person == "Freddie Mercury" && attribute == :favorite_ice_cream_flavors
         data.delete_if {|ice_cream| ice_cream == "strawberry"}
-        # binding.pry
+        binding.pry
       end
     end
   end
