@@ -14,24 +14,12 @@ require 'pry'
     }
   }
 
-def remove_strawberry(contacts)
+def remove_strawberry(contacts) #Expected to remove "strawberry" from any contacts that contain strawberry as a favorite ice cream
    contacts.each do |person, contact_details_hash|
-    #  binding.pry
     contact_details_hash.each do |attribute, data|
-      # binding.pry
       if attribute == :favorite_ice_cream_flavors
         data.delete_if {|ice_cream| ice_cream == "strawberry"}
       end
     end
   end
- end
-  #    data.each do |data, value|
-  #      if person == "Freddy Mercury"
-  #        favorite_ice_cream_flavors.shift
-  #      end
-  #    end
-  #  end
-  #  contacts
-
-
-# binding.pry
+end
