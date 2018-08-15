@@ -26,7 +26,6 @@ def remove_strawberry(contacts)
     end
    end
  end
- end
   #    data.each do |data, value|
   #      if person == "Freddy Mercury"
   #        favorite_ice_cream_flavors.shift
