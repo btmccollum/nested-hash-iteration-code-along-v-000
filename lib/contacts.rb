@@ -19,12 +19,11 @@ def remove_strawberry(contacts)
     #  binding.pry
     contact_details_hash.each do |attribute, data|
       # binding.pry
-      if attribute == "favorite_ice_cream_flavors"
-        favorite_ice_cream_flavors.unshift
-        binding.pry
+      if person == "Freddie Mercury" && attribute == :favorite_ice_cream_flavors
+        data.delete_if |ice_cream| ice_cream == "strawberry"}
+        # binding.pry
       end
     end
-
    end
   #    data.each do |data, value|
   #      if person == "Freddy Mercury"
