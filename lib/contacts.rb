@@ -20,8 +20,9 @@ def remove_strawberry(contacts)
        if person == "Freddy Mercury"
          favorite_ice_cream_flavors.shift
        end
-     end
-     contacts
-     binding.pry
+     end   
    end
+   contacts
 end
+   
+binding.pry
