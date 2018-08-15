@@ -21,4 +21,5 @@ def remove_strawberry(contacts)
          favorite_ice_cream_flavors.shift
        end
      end
+     contacts
 end
